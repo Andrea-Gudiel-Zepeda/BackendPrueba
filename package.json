@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -w",
+    "build": "bower install && grunt build",
     "dev": "nodemon build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/index.js"
