@@ -7,7 +7,7 @@
     "build": "tsc -w",
     "dev": "nodemon build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
-    "nodemon": "^16.16.0"
+    "nodemon": "^2.0.19", 
+    "node": "16.16.0"
   }
 }
