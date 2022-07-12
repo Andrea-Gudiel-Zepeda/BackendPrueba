@@ -1,13 +1,13 @@
 {
-  "name": "server",
+  "name": "backend-despliegue",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "bower install && grunt build",
+    "build": "npm build",
     "dev": "nodemon build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node build/index.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +16,9 @@
     "@types/cors": "^2.8.12",
     "@types/morgan": "^1.9.3",
     "cors": "^2.8.5",
-    "express": "^4.17.2",
+    "express": "^4.18.1",
     "morgan": "^1.10.0",
+    "path": "^0.12.7",
     "promise-mysql": "^3.3.1"
   },
   "devDependencies": {
